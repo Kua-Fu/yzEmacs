@@ -1,7 +1,6 @@
 (use-package elpy
-  :mode
-  (("\\.py\\'" . python-mode))
-  :ensure t
+  :mode 
+  (("\\.py\\'" . python-mode)) 
   :defer t
   :init
   (elpy-enable)

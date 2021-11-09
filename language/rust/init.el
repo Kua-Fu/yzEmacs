@@ -1,3 +1,4 @@
+;; =================== rust 配置=======================
 (use-package rust-mode
   :mode
   (("\\.rs\\'" . rust-mode))
@@ -36,3 +37,4 @@
   (setq indent-tabs-mode nil)
   (setq company-minimum-prefix-length 1)
   )
+
