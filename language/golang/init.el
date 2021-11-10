@@ -14,6 +14,6 @@
   (go-mode . hs-minor-mode)
   :bind
   (:map go-mode-map ;; 定义本地命名空间
-	("M-," . godef-jump)
-	("M-." . pop-tag-mark))
+	("M-." . godef-jump)
+	("M-," . pop-tag-mark))
   )

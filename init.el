@@ -1,9 +1,8 @@
 ;; ========================== 设置清华源 ==============================================
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+			 ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 
-(require 'package)
-;; 配置清华源
-(add-to-list 'package-archives
-	     '("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/") t)
+(package-initialize) ;; You might already have this line
 
 ;;============1. 保证use-package 安装==================================
 
@@ -33,7 +32,7 @@
 (add-to-list 'default-frame-alist '(fullscreen . maxheight))
 
 
-;;===========3. 全局快捷键 ==============================================
+;;=========== 全局快捷键 ==============================================
 
 ;; 1) 绑定或者解绑 mark
 (global-unset-key (kbd "C-SPC"))
@@ -58,8 +57,12 @@
 (global-set-key (kbd "C-M-[") 'hs-show-block)
 (global-set-key (kbd "C-M-]") 'hs-hide-block)
 
+;; (use-package projectile-mode
+;;   :ensure t
+;;   )
 
-;;===========4. 语言配置=============================================
+
+;;===========语言配置=============================================
 
 ;; 1)配置python开发环境
 (load-file "~/.emacs.d/language/python/init.el")
@@ -88,16 +91,29 @@
 ;; 9)配置csv开发环境
 (load-file "~/.emacs.d/language/csv/init.el")
 
-;; ===================5. 各种其他工具=======================
+;; =================== 各种其他工具=======================
 
 (use-package go-translate
-	:config
-	(setq gts-translate-list '(("en" "zh")))
-	(setq gts-default-translator
-      (gts-translator
-       :picker (gts-prompt-picker)
-       :engines (list (gts-bing-engine) (gts-google-engine))
-       :render (gts-buffer-render)))
-	(global-set-key (kbd "M-t") 'gts-do-translate)
-	)
+  :config
+  (setq gts-translate-list '(("en" "zh")))
+  (setq gts-default-translator
+	(gts-translator
+	 :picker (gts-prompt-picker)
+	 :engines (list (gts-bing-engine) (gts-google-engine))
+	 :render (gts-buffer-render)))
+  (global-set-key (kbd "M-t") 'gts-do-translate)
+  )
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(py-autopep8 cargo-mode projectile-mode go-translate projectile go-mode magit vscode-dark-plus-theme use-package racer lispy format-all flycheck-rust elpy cargo)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
