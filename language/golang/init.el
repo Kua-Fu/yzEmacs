@@ -8,6 +8,7 @@
   (setq tab-width 2)
   (setq indent-tabs-mode 1)
   :hook
+  ;; (add-hook 'before-save-hook 'gofmt-before-save)
   (before-save . gofmt-before-save)
   (go-mode . flycheck-mode)
   (go-mode . company-mode)
