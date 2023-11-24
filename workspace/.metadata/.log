@@ -1,0 +1,680 @@
+!SESSION 2022-03-21 11:36:26.055 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CN
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /Users/yz/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.040
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.227
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.257
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.259
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.369
+!MESSAGE Default VM Install changed from  null to net.temurin.16.jdk-/Library/Java/JavaVirtualMachines/temurin-16.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.401
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.401
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.407
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.422
+!MESSAGE Wait for AutoBuildOffJob end 14ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.422
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.423
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.424
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.425
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:28.450
+!MESSAGE Started org.eclipse.buildship.core 26ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:29.846
+!MESSAGE LoadingGradleVersionJob finished 1395ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:29.860
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:29.884
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:29.921
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.289
+!MESSAGE Workspace initialized in 442ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.323
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.340
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.345
+!MESSAGE >> New configuration: {java={codeGeneration={toString={limitElements=0.0, listArrayContents=true, skipNullValues=false, codeStyle=STRING_CONCATENATION, template=${object.className} [${member.name()}=${member.value}, ${otherMembers}]}, generateComments=false, useBlocks=false, hashCodeEquals={useInstanceof=false, useJava7Objects=false}}, format={onType={enabled=true}, comments={enabled=true}, enabled=true, tabSize=4.0, insertSpaces=false}, progressReports={enabled=true}, foldingRange={enabled=true}, completion={importOrder=[java, javax, com, org], favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], guessMethodArguments=true, overwrite=true, enabled=true, filteredTypes=[java.awt.*, com.sun.*], maxResults=0.0}, maxConcurrentBuilds=1.0, autobuild={enabled=true}, selectionRange={enabled=true}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}}, saveActions={organizeImports=false}, implementationsCodeLens={enabled=false}, signatureHelp={enabled=true}, referencesCodeLens={enabled=false}, maven={downloadSources=false, updateSnapshots=false}, trace={server=off}, configuration={updateBuildConfiguration=automatic, checkProjectSettingsExclusions=true}, errors={incompleteClasspath={severity=warning}}, dependency={packagePresentation=flat}, project={importHint=true, importOnFirstTimeStartup=automatic, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .metadata, archetype-resources, META-INF/maven]}, imports={gradle={wrapper={checksums=[]}}}, sources={organizeImports={staticStarThreshold=99.0, starThreshold=99.0}}, server={launchMode=Hybrid}, showBuildStatusOnStart={enabled=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.346
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.485
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.488
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.491
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.491
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.906
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.909
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.911
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.911
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.913
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.914
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.914
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.916
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.916
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.917
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.917
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.918
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.919
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.920
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.921
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.924
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:30.963
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:31.066
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:31.632
+!MESSAGE begin problem for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:31.633
+!MESSAGE 32 problems reported for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:31.635
+!MESSAGE Validated 1. Took 165 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:31.736
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:39.424
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:39.425
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:39.426
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:40.608
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:40.677
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:40.781
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:40.795
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:40.981
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.047
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.114
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.127
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.241
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.255
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.357
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.421
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.488
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.501
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.605
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.618
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.846
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.860
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:41.997
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.010
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.097
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.162
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.222
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.288
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.345
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.358
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.472
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.484
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.606
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.618
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.746
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.758
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.864
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.881
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:42.992
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.003
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.130
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.143
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.257
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.270
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.394
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.458
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.532
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.544
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.648
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.661
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.773
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.784
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.914
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:43.979
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.039
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.049
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.173
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.186
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.645
+!MESSAGE begin problem for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.646
+!MESSAGE 1 problems reported for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.646
+!MESSAGE Validated 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.685
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.686
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.754
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.965
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:44.976
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:45.419
+!MESSAGE begin problem for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:45.420
+!MESSAGE 1 problems reported for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:45.420
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:45.474
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:45.475
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:45.475
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:45.476
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:45.494
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:46.851
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.130
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.193
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.630
+!MESSAGE begin problem for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.630
+!MESSAGE 1 problems reported for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.630
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.639
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.640
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.640
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.641
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.662
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.663
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.664
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:47.664
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:48.208
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:48.402
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:48.415
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:48.428
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:48.923
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:48.924
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:48.924
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:52.823
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:52.824
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:52.825
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:56.324
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:56.325
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:56.325
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.747
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.774
+!MESSAGE >> java/classFileContents
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.778
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.830
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.831
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.871
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.908
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.908
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.909
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:36:59.910
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:00.409
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:00.410
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:01.607
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:01.608
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:05.706
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:10.856
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:14.746
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:14.746
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:14.747
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:19.684
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:19.685
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:19.685
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:23.960
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:23.960
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:23.961
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:29.084
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:37:29.085
+!MESSAGE >> document/documentHighlight
+!SESSION 2022-03-21 11:43:51.130 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CN
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /Users/yz/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-03-21 11:43:51.833
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.345
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.521
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.549
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.551
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.580
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.581
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.586
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.586
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.599
+!MESSAGE ProjectRegistryRefreshJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.599
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.624
+!MESSAGE Started org.eclipse.buildship.core 25ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.635
+!MESSAGE LoadingGradleVersionJob finished 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:52.682
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.049
+!MESSAGE Workspace initialized in 411ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.064
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.081
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.086
+!MESSAGE >> New configuration: {java={codeGeneration={toString={limitElements=0.0, listArrayContents=true, skipNullValues=false, codeStyle=STRING_CONCATENATION, template=${object.className} [${member.name()}=${member.value}, ${otherMembers}]}, generateComments=false, useBlocks=false, hashCodeEquals={useInstanceof=false, useJava7Objects=false}}, format={onType={enabled=true}, comments={enabled=true}, enabled=true, tabSize=4.0, insertSpaces=false}, progressReports={enabled=true}, foldingRange={enabled=true}, completion={importOrder=[java, javax, com, org], favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], guessMethodArguments=true, overwrite=true, enabled=true, filteredTypes=[java.awt.*, com.sun.*], maxResults=0.0}, maxConcurrentBuilds=1.0, autobuild={enabled=true}, selectionRange={enabled=true}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}}, saveActions={organizeImports=false}, implementationsCodeLens={enabled=false}, signatureHelp={enabled=true}, referencesCodeLens={enabled=false}, maven={downloadSources=false, updateSnapshots=false}, trace={server=off}, configuration={updateBuildConfiguration=automatic, checkProjectSettingsExclusions=true}, errors={incompleteClasspath={severity=warning}}, dependency={packagePresentation=flat}, project={importHint=true, importOnFirstTimeStartup=automatic, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .metadata, archetype-resources, META-INF/maven]}, imports={gradle={wrapper={checksums=[]}}}, sources={organizeImports={staticStarThreshold=99.0, starThreshold=99.0}}, server={launchMode=Hybrid}, showBuildStatusOnStart={enabled=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.088
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.551
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.553
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.555
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.556
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.559
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.559
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.560
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.561
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.562
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.563
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.564
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.565
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.566
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.567
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.570
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.612
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.629
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.709
+!MESSAGE begin problem for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.710
+!MESSAGE 1 problems reported for /Lox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.711
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.724
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.737
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.741
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.743
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.744
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 11:43:53.765
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 12:08:11.100
+!MESSAGE >> document/codeAction

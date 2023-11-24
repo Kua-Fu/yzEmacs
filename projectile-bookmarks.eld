@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/work/gitlab/src/gitlab.jiagouyun.com/cloudcare-tools/kodo/" "~/work/github/yzNetwork/" "~/work/github/yzLanguage/")

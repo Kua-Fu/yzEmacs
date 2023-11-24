@@ -62,38 +62,43 @@
 ;;   :ensure t
 ;;   )
 
+;;=========== project ==============================================
+(global-set-key (kbd "C-s-f") 'project-search)
 
 ;;===========语言配置=============================================
 
-;; 1)配置python开发环境
+;; 1) 配置python开发环境
 (load-file "~/.emacs.d/language/python/init.el")
 
-;; 2)配置rust开发环境
+;; 2) 配置rust开发环境
 (load-file "~/.emacs.d/language/rust/init.el")
 
-;; 3)配置golang开发环境
+;; 3) 配置golang开发环境
 (load-file "~/.emacs.d/language/golang/init.el")
 
-;; ;; 4)配置java开发环境
+;; 4) 配置java开发环境
 (load-file "~/.emacs.d/language/java/init.el")
 
-;; 5)配置c/c++开发环境
+;; 5) 配置c/c++开发环境
 (load-file "~/.emacs.d/language/c/init.el")
 
-;; 6)配置markdown开发环境
+;; 6) 配置markdown开发环境
 (load-file "~/.emacs.d/language/markdown/init.el")
 
-;; 7)配置lisp开发环境
+;; 7) 配置lisp开发环境
 (load-file "~/.emacs.d/language/lisp/init.el")
 
-;; 8)配置sql开发环境
+;; 8) 配置sql开发环境
 (load-file "~/.emacs.d/language/sql/init.el")
 
-;; 9)配置csv开发环境
+;; 9) 配置csv开发环境
 (load-file "~/.emacs.d/language/csv/init.el")
 
 ;; 10) 配置json
 (load-file "~/.emacs.d/language/json/init.el")
+
+;; 11) 配置shell
+(load-file "~/.emacs.d/language/shell/init.el")
 
 ;; =================== 各种其他工具=======================
 
@@ -127,7 +132,7 @@
  ;; If there is more than one, they won't work right.
  '(lsp-java-server-install-dir "/Users/yz/.emacs.d/jdt/")
  '(package-selected-packages
-   '(vdiff nov gif-screencast lsp-java lsp-mode go-mode go json-mode yaml-mode py-autopep8 cargo-mode projectile-mode go-translate projectile magit vscode-dark-plus-theme use-package racer lispy format-all flycheck-rust elpy cargo)))
+   '(rustic vdiff nov gif-screencast lsp-java lsp-mode go-mode go json-mode yaml-mode py-autopep8 cargo-mode projectile-mode go-translate projectile magit vscode-dark-plus-theme use-package racer lispy format-all flycheck-rust elpy cargo)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

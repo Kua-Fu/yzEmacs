@@ -1,0 +1,4 @@
+;;; -*- lisp-data -*-
+(("~/.emacs.d/")
+ ("~/work/github/gin/")
+ ("~/work/gitlab/src/gitlab.jiagouyun.com/cloudcare-tools/kodo/"))

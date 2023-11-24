@@ -18,3 +18,6 @@
 	("M-." . godef-jump)
 	("M-," . pop-tag-mark))
   )
+
+;; debug
+;; (use-package 'dap-dlv-go)

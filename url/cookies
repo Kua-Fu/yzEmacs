@@ -1,0 +1,28 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".bing.com"
+  [url-cookie "SRCHHPGUSR" "SRCHLANG=zh-Hans" "Sat, 11-Nov-2023 06:07:04 GMT" "/" ".bing.com" nil]
+  [url-cookie "SRCHUSR" "DOB=20211111" "Sat, 11-Nov-2023 06:07:04 GMT" "/" ".bing.com" nil]
+  [url-cookie "SRCHUID" "V=2&GUID=47AB92B9D46847C281C16ECFFE682AFE&dmnchg=1" "Sat, 11-Nov-2023 06:07:04 GMT" "/" ".bing.com" nil]
+  [url-cookie "SRCHD" "AF=NOFORM" "Sat, 11-Nov-2023 06:07:04 GMT" "/" ".bing.com" nil]
+  [url-cookie "SUID" "M" "Wed, 15-Jun-2022 09:34:37 GMT" "/" ".bing.com" nil])
+ ("cn.bing.com"
+  [url-cookie "MUIDB" "350652080AC868F51C1442E40B8B69B5" "Sun, 09-Jul-2023 09:34:47 GMT" "/" "cn.bing.com" nil])
+ ("www.bing.com"
+  [url-cookie "MUIDB" "350652080AC868F51C1442E40B8B69B5" "Tue, 06-Dec-2022 06:07:03 GMT" "/" "www.bing.com" nil])
+ ("bing.com"
+  [url-cookie "_EDGE_V" "1" "Tue, 06-Dec-2022 06:07:03 GMT" "/" "bing.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '(("bing.com"
+  [url-cookie "MUID" "350652080AC868F51C1442E40B8B69B5" "Tue, 06-Dec-2022 06:07:03 GMT" "/" "bing.com" t])
+ (".bing.com"
+  [url-cookie "btstkn" "t%252FJNZ2rPjRJPYJmyLth1jPaLd%252Bfg6Mv6QJgarAHIhTbzs6AmgL1HFYAC3nhzEOV9tM3wXsiBHSuhWjEpaMjS4r9jM2Z4s5escozDPD9YY%252B0%253D" "Wed, 15-Jun-2022 09:34:38 GMT" "/" ".bing.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
